@@ -4,8 +4,10 @@ Digital Talent Scholarship files
 
 ## Modules
 * Modul 1 - Pengenalan Python dan Bahasa Pemrograman
-* Modul 2 - Tipe Data, Variabel, Dasar Input Output
+* Modul 2 - Tipe Data, Variabel, Dasar Input Output 
 * Modul 3 - Operator kondisi, perulangan, list dan operasinya, bitwise, boolean
 * Modul 4 - Function Tuple Dictionaries and Data Processing
 * Modul 5 - Modules, packages, string and list methods, and exceptions
 * Modul 6 - Object Oriented Approach, Exception Handling, Working with Files
+
+> Semua modul akan diupdate secara berkala, sesuai jadwal pelatihan. Selamat belajar!
