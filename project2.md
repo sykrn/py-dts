@@ -7,11 +7,13 @@
 <button onclick="myFunction()">Click Me</button>
 <div id="myDIV">
 
+
 | 1 | 2 | 4 | 4 | 3 |
 |---|---|---|---|---|
 |   | 2 |   |   |   |
 |   |   | 2 |   |   |
 | 4 |   |   | 3 | 3 |
+
 
 </div>
 
