@@ -7,4 +7,4 @@
 
 # Test Project
 1. lorem 222
-2. Ipsum <span>{{obj.name}}</span>
+2. Ipsum <span><script>document.write(obj.name);</script></span>
