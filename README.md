@@ -11,3 +11,5 @@ Digital Talent Scholarship files
 * Modul 6 - Object Oriented Approach, Exception Handling, Working with Files
 
 > Semua modul akan diupdate secara berkala, sesuai jadwal pelatihan. Selamat belajar!
+
+[project](project.md)
