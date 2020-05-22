@@ -5,7 +5,15 @@
 2. Ipsum <script>document.write(obj.name);</script>
 
 <button onclick="myFunction()">Click Me</button>
-<div id="myDIV"> hola </div>
+<div id="myDIV">
+
+| 1 | 2 | 4 | 4 | 3 |
+|---|---|---|---|---|
+|   | 2 |   |   |   |
+|   |   | 2 |   |   |
+| 4 |   |   | 3 | 3 |
+
+</div>
 
 <script>
 function myFunction() {
