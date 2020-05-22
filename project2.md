@@ -1,7 +1,5 @@
 <div>
-  <script type="text/javascript">
-    var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
-  </script>
+  <script type="text/javascript" src="data.json"></script>
 </div>
 
 
