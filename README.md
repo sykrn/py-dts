@@ -12,4 +12,4 @@ Digital Talent Scholarship files
 
 > Semua modul akan diupdate secara berkala, sesuai jadwal pelatihan. Selamat belajar!
 
-[project](project.md)
+[project](project2.md)
