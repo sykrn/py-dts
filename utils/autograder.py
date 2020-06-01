@@ -52,11 +52,11 @@ class CmpTestcase():
   def __init__(self, v1,v2,tCases=None,cmp_out=False):
     self.tCases=tCases
     self.score = 0
-    self.var = False
+    self.v = v1
     if not callable(v1):
       self.out = var_cmp(v1,v2)
       self.score = 1 if self.out[0] == 'Benar' else 0 
-      self.var = True
+  
     elif tCases==None:
       raise 'Please provide tCases list of tupple [(*args,*kwargs)]'
     else:
@@ -75,13 +75,15 @@ class CmpTestcase():
       
 
          
-  def __str__(self):
+  def __str__(self,name='var'):
     summary=''
-    if self.var:
+    if not callable(self.v):
       summary = str(self.out)
     else:
+      if name == 'var':
+        name = self.v.__name__
       for o,c in zip(self.out,self.tCases):
           summary+='case inputs: '+ str(c)+'\nResults: '+str(o)+'\n'
-
-    return summary
+    
+    return name +' :\n'+summary
     
