@@ -49,21 +49,39 @@ def funcout_cmp(f1,f2,*args,**kwargs):
       return l
 
 class CmpTestcase():
-  out = None
-  def __init__(self, v1,v2,tCases=None):
+  def __init__(self, v1,v2,tCases=None,cmp_out=False):
     self.tCases=tCases
+    self.score = 0
+    self.var = False
     if not callable(v1):
       self.out = var_cmp(v1,v2)
+      self.score = 1 if self.out[0] == 'Benar' else 0 
+      self.var = True
     elif tCases==None:
       raise 'Please provide tCases list of tupple [(*args,*kwargs)]'
-    elif len(tCases)>1:
-      self.out = []
-      for args,kwargs in tCases:
-       out = func_cmp(v1,v2,*args,**kwargs)
-       self.out.append(out)
     else:
-      self.out = funcout_cmp(v1,v2,*args,**kwargs)
+      self.out = []
+      if cmp_out:
+        f = funcout_cmp            
+      else:
+        f = func_cmp
 
+      for args,kwargs in tCases:
+        out = f(v1,v2,*args,**kwargs)
+        self.score += 1 if out[0] == 'Benar' else 0
+        self.out.append(out)
+
+      self.score /= len(tCases)
+      
+
+         
   def __str__(self):
-    print(self.out,self.tCases)
+    summary=''
+    if self.var:
+      summary = str(self.out)
+    else:
+      for o,c in zip(self.out,self.tCases):
+          summary+='case inputs: '+ str(c)+'\nResults: '+str(o)+'\n'
+
+    return summary
     
