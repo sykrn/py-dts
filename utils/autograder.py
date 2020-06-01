@@ -78,7 +78,7 @@ class CmpTestcase():
   def __str__(self,name='var'):
     summary=''
     if not callable(self.v):
-      summary = str(self.out)
+      summary = str(self.out)+'\n'
     else:
       if name == 'var':
         name = self.v.__name__
