@@ -49,7 +49,6 @@ prices = [6,5,3,10,12,7,14,15,8,7,9]
 
 # list buah
 chart = ['Blueberries','Blueberries','Grapes','Apple','Apple','Apple','Blueberries','Guava','Jackfruit','Blueberries','Jackfruit']
-chart.sort()
 
 # MULAI KODEMU DI SINI
 fruit_price = None # ini kode saya dst TENTUNYA SUDAH DIKERJAKAN!
