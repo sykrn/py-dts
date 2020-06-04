@@ -26,20 +26,11 @@ def letter_catalog(items,letter='A'):
   # ini kode saya dst TENTUNYA SUDAH DIKERJAKAN!
 
 #Graded
-from collections import Counter
 
-# pakai library 
 def counter_item(items):
   pass
   # MULAI KODEMU DI SINI
   # ini kode saya dst TENTUNYA SUDAH DIKERJAKAN!
-
-# tanpa library
-def counter_item2(items):
-  pass
-  # MULAI KODEMU DI SINI
-  # ini kode saya dst TENTUNYA SUDAH DIKERJAKAN!
-
 
 #Graded
 
