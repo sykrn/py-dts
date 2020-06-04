@@ -12,3 +12,5 @@ Digital Talent Scholarship files
 
 > Semua modul akan diupdate secara berkala, sesuai jadwal pelatihan. Selamat belajar!
 
+Cek score project (Kalau sudah dikoreksi) klik link di [sini](https://sykrn.github.io/pydts/).
+
