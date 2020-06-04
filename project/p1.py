@@ -6,6 +6,7 @@
 # jadi kalau anda ingin merevisi kode anda:
 # silakan di resubmit dengan nilai variable priority yang lebih besar dari
 # nilai priority submisi sebelumnya
+# JIKA TIDAK ADA VARIABLE priority DIANGGAP priority=0
 
 priority = 0
 
