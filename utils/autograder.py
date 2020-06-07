@@ -13,6 +13,7 @@ def func_cmp(f1,f2,*args,**kwargs):
   passed = 'Salah'
   e=None
   o1 = f1(*args,**kwargs)
+  
   try:
     o2 = f2(*args,**kwargs)
   except Exception as er:
@@ -21,6 +22,9 @@ def func_cmp(f1,f2,*args,**kwargs):
     if e:
       return ['Error',str(e)]
     else:
+      if type(o1) == float:
+        o1 = round(o1,5)
+        o2 = round(o2,5)
       if o1 == o2:
         passed = 'Benar'
       l = [passed,o1,type(o1),o2,type(o2)]
