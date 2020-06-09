@@ -1,5 +1,6 @@
 from unittest.mock import patch 
 from io import StringIO 
+import random
 
 # match variable output
 def var_cmp(v1,v2):
@@ -9,12 +10,13 @@ def var_cmp(v1,v2):
   l = [passed,v1,type(v1),v2,type(v2)]
   return l
 
-def func_cmp(f1,f2,*args,**kwargs):
+def func_cmp(f1,f2,rng,*args,**kwargs):
   passed = 'Salah'
   e=None
-  o1 = f1(*args,**kwargs)
-  
+  random.seed(rng)
+  o1 = f1(*args,**kwargs)  
   try:
+    random.seed(rng)
     o2 = f2(*args,**kwargs)
   except Exception as er:
     e=er
@@ -23,8 +25,8 @@ def func_cmp(f1,f2,*args,**kwargs):
       return ['Error',str(e)]
     else:
       if type(o1) == float:
-        o1 = round(o1,5)
-        o2 = round(o2,5)
+        o1 = round(o1,6)
+        o2 = round(o2,6)
       if o1 == o2:
         passed = 'Benar'
       l = [passed,o1,type(o1),o2,type(o2)]
@@ -35,11 +37,13 @@ def get_printout(f,*args,**kwargs):
         f(*args,**kwargs)
         return fake_out.getvalue()
 
-def funcout_cmp(f1,f2,*args,**kwargs):
+def funcout_cmp(f1,f2,rng,*args,**kwargs):
   passed = 'Salah'
   e=None
+  random.seed(rng)
   o1 = get_printout(f1,*args,**kwargs)
   try:
+    random.seed(rng)
     o2 = get_printout(f2,*args,**kwargs)
   except Exception as er:
     e=er
@@ -53,7 +57,7 @@ def funcout_cmp(f1,f2,*args,**kwargs):
       return l
 
 class CmpTestcase():
-  def __init__(self, v1,v2,tCases=None,cmp_out=False):
+  def __init__(self, v1,v2, rng=0,tCases=None,cmp_out=False):
     self.tCases=tCases
     self.score = 0
     self.v = v1
@@ -70,9 +74,10 @@ class CmpTestcase():
       else:
         f = func_cmp
 
-      for args,kwargs in tCases:
-        out = f(v1,v2,*args,**kwargs)
+      for i, (args,kwargs) in enumerate(tCases):
+        out = f(v1,v2,rng+i,*args,**kwargs)
         self.score += 1 if out[0] == 'Benar' else 0
+        out.append('seed : ' + str(rng+i))
         self.out.append(out)
 
       self.score /= len(tCases)
