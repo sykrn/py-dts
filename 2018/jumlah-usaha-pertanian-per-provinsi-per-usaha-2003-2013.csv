@@ -1,0 +1,171 @@
+kode_provinsi,nama_provinsi,bentuk_usaha,tahun,jumlah
+11,"Prov. Nanggroe Aceh Darussalam","Rumah Tangga",2003,699370
+11,"Prov. Nanggroe Aceh Darussalam","Badan Hukum",2003,131
+11,"Prov. Nanggroe Aceh Darussalam","Rumah Tangga",2013,644851
+11,"Prov. Nanggroe Aceh Darussalam","Badan Hukum",2013,100
+11,"Prov. Nanggroe Aceh Darussalam","Lainnya",2013,111
+12,"Prov. Sumatera Utara","Rumah Tangga",2003,1492104
+12,"Prov. Sumatera Utara","Badan Hukum",2003,455
+12,"Prov. Sumatera Utara","Rumah Tangga",2013,1327759
+12,"Prov. Sumatera Utara","Badan Hukum",2013,420
+12,"Prov. Sumatera Utara","Lainnya",2013,352
+13,"Prov. Sumatera Barat","Rumah Tangga",2003,709351
+13,"Prov. Sumatera Barat","Badan Hukum",2003,99
+13,"Prov. Sumatera Barat","Rumah Tangga",2013,644610
+13,"Prov. Sumatera Barat","Badan Hukum",2013,71
+13,"Prov. Sumatera Barat","Lainnya",2013,293
+14,"Prov. Riau","Rumah Tangga",2003,541050
+14,"Prov. Riau","Badan Hukum",2003,177
+14,"Prov. Riau","Rumah Tangga",2013,581517
+14,"Prov. Riau","Badan Hukum",2013,258
+14,"Prov. Riau","Lainnya",2013,102
+15,"Prov. Jambi","Rumah Tangga",2003,414986
+15,"Prov. Jambi","Badan Hukum",2003,77
+15,"Prov. Jambi","Rumah Tangga",2013,431589
+15,"Prov. Jambi","Badan Hukum",2013,123
+15,"Prov. Jambi","Lainnya",2013,120
+16,"Prov. Sumatera Selatan","Rumah Tangga",2003,971458
+16,"Prov. Sumatera Selatan","Badan Hukum",2003,118
+16,"Prov. Sumatera Selatan","Rumah Tangga",2013,958724
+16,"Prov. Sumatera Selatan","Badan Hukum",2013,178
+16,"Prov. Sumatera Selatan","Lainnya",2013,46
+17,"Prov. Bengkulu","Rumah Tangga",2003,280964
+17,"Prov. Bengkulu","Badan Hukum",2003,41
+17,"Prov. Bengkulu","Rumah Tangga",2013,277136
+17,"Prov. Bengkulu","Badan Hukum",2013,77
+17,"Prov. Bengkulu","Lainnya",2013,128
+18,"Prov. Lampung","Rumah Tangga",2003,1293192
+18,"Prov. Lampung","Badan Hukum",2003,92
+18,"Prov. Lampung","Rumah Tangga",2013,1226455
+18,"Prov. Lampung","Badan Hukum",2013,123
+18,"Prov. Lampung","Lainnya",2013,127
+19,"Prov. Kepulauan Bangka Belitung","Rumah Tangga",2003,139315
+19,"Prov. Kepulauan Bangka Belitung","Badan Hukum",2003,43
+19,"Prov. Kepulauan Bangka Belitung","Rumah Tangga",2013,124970
+19,"Prov. Kepulauan Bangka Belitung","Badan Hukum",2013,55
+19,"Prov. Kepulauan Bangka Belitung","Lainnya",2013,66
+21,"Prov. Kepulauan Riau","Rumah Tangga",2003,74195
+21,"Prov. Kepulauan Riau","Badan Hukum",2003,6
+21,"Prov. Kepulauan Riau","Rumah Tangga",2013,69991
+21,"Prov. Kepulauan Riau","Badan Hukum",2013,35
+21,"Prov. Kepulauan Riau","Lainnya",2013,10
+31,"Prov. DKI Jakarta","Rumah Tangga",2003,52583
+31,"Prov. DKI Jakarta","Badan Hukum",2003,48
+31,"Prov. DKI Jakarta","Rumah Tangga",2013,12287
+31,"Prov. DKI Jakarta","Badan Hukum",2013,31
+31,"Prov. DKI Jakarta","Lainnya",2013,28
+32,"Prov. Jawa Barat","Rumah Tangga",2003,4345148
+32,"Prov. Jawa Barat","Badan Hukum",2003,480
+32,"Prov. Jawa Barat","Rumah Tangga",2013,3058612
+32,"Prov. Jawa Barat","Badan Hukum",2013,479
+32,"Prov. Jawa Barat","Lainnya",2013,397
+33,"Prov. Jawa Tengah","Rumah Tangga",2003,5770801
+33,"Prov. Jawa Tengah","Badan Hukum",2003,242
+33,"Prov. Jawa Tengah","Rumah Tangga",2013,4290619
+33,"Prov. Jawa Tengah","Badan Hukum",2013,225
+33,"Prov. Jawa Tengah","Lainnya",2013,579
+34,"Prov. D I Yogyakarta","Rumah Tangga",2003,574920
+34,"Prov. D I Yogyakarta","Badan Hukum",2003,44
+34,"Prov. D I Yogyakarta","Rumah Tangga",2013,495781
+34,"Prov. D I Yogyakarta","Badan Hukum",2013,20
+34,"Prov. D I Yogyakarta","Lainnya",2013,90
+35,"Prov. Jawa Timur","Rumah Tangga",2003,6314370
+35,"Prov. Jawa Timur","Badan Hukum",2003,653
+35,"Prov. Jawa Timur","Rumah Tangga",2013,4978358
+35,"Prov. Jawa Timur","Badan Hukum",2013,410
+35,"Prov. Jawa Timur","Lainnya",2013,1083
+36,"Prov. Banten","Rumah Tangga",2003,898021
+36,"Prov. Banten","Badan Hukum",2003,78
+36,"Prov. Banten","Rumah Tangga",2013,592841
+36,"Prov. Banten","Badan Hukum",2013,98
+36,"Prov. Banten","Lainnya",2013,58
+51,"Prov. Bali","Rumah Tangga",2003,492394
+51,"Prov. Bali","Badan Hukum",2003,63
+51,"Prov. Bali","Rumah Tangga",2013,408233
+51,"Prov. Bali","Badan Hukum",2013,84
+51,"Prov. Bali","Lainnya",2013,406
+52,"Prov. Nusa Tenggara Barat","Rumah Tangga",2003,719875
+52,"Prov. Nusa Tenggara Barat","Badan Hukum",2003,65
+52,"Prov. Nusa Tenggara Barat","Rumah Tangga",2013,600613
+52,"Prov. Nusa Tenggara Barat","Badan Hukum",2013,53
+52,"Prov. Nusa Tenggara Barat","Lainnya",2013,98
+53,"Prov. Nusa Tenggara Timur","Rumah Tangga",2003,729483
+53,"Prov. Nusa Tenggara Timur","Badan Hukum",2003,35
+53,"Prov. Nusa Tenggara Timur","Rumah Tangga",2013,778854
+53,"Prov. Nusa Tenggara Timur","Badan Hukum",2013,37
+53,"Prov. Nusa Tenggara Timur","Lainnya",2013,500
+61,"Prov. Kalimantan Barat","Rumah Tangga",2003,614738
+61,"Prov. Kalimantan Barat","Badan Hukum",2003,168
+61,"Prov. Kalimantan Barat","Rumah Tangga",2013,627638
+61,"Prov. Kalimantan Barat","Badan Hukum",2013,275
+61,"Prov. Kalimantan Barat","Lainnya",2013,72
+62,"Prov. Kalimantan Tengah","Rumah Tangga",2003,302414
+62,"Prov. Kalimantan Tengah","Badan Hukum",2003,97
+62,"Prov. Kalimantan Tengah","Rumah Tangga",2013,270914
+62,"Prov. Kalimantan Tengah","Badan Hukum",2013,228
+62,"Prov. Kalimantan Tengah","Lainnya",2013,164
+63,"Prov. Kalimantan Selatan","Rumah Tangga",2003,471972
+63,"Prov. Kalimantan Selatan","Badan Hukum",2003,122
+63,"Prov. Kalimantan Selatan","Rumah Tangga",2013,432328
+63,"Prov. Kalimantan Selatan","Badan Hukum",2013,125
+63,"Prov. Kalimantan Selatan","Lainnya",2013,112
+64,"Prov. Kalimantan Timur","Rumah Tangga",2003,203179
+64,"Prov. Kalimantan Timur","Badan Hukum",2003,118
+64,"Prov. Kalimantan Timur","Rumah Tangga",2013,180614
+64,"Prov. Kalimantan Timur","Badan Hukum",2013,214
+64,"Prov. Kalimantan Timur","Lainnya",2013,38
+71,"Prov. Sulawesi Utara","Rumah Tangga",2003,324374
+71,"Prov. Sulawesi Utara","Badan Hukum",2003,91
+71,"Prov. Sulawesi Utara","Rumah Tangga",2013,253503
+71,"Prov. Sulawesi Utara","Badan Hukum",2013,50
+71,"Prov. Sulawesi Utara","Lainnya",2013,267
+72,"Prov. Sulawesi Tengah","Rumah Tangga",2003,396622
+72,"Prov. Sulawesi Tengah","Badan Hukum",2003,60
+72,"Prov. Sulawesi Tengah","Rumah Tangga",2013,401891
+72,"Prov. Sulawesi Tengah","Badan Hukum",2013,49
+72,"Prov. Sulawesi Tengah","Lainnya",2013,131
+73,"Prov. Sulawesi Selatan","Rumah Tangga",2003,1082251
+73,"Prov. Sulawesi Selatan","Badan Hukum",2003,135
+73,"Prov. Sulawesi Selatan","Rumah Tangga",2013,980946
+73,"Prov. Sulawesi Selatan","Badan Hukum",2013,80
+73,"Prov. Sulawesi Selatan","Lainnya",2013,129
+74,"Prov. Sulawesi Tenggara","Rumah Tangga",2003,314011
+74,"Prov. Sulawesi Tenggara","Badan Hukum",2003,18
+74,"Prov. Sulawesi Tenggara","Rumah Tangga",2013,316262
+74,"Prov. Sulawesi Tenggara","Badan Hukum",2013,32
+74,"Prov. Sulawesi Tenggara","Lainnya",2013,20
+75,"Prov. Gorontalo","Rumah Tangga",2003,133083
+75,"Prov. Gorontalo","Badan Hukum",2003,42
+75,"Prov. Gorontalo","Rumah Tangga",2013,122515
+75,"Prov. Gorontalo","Badan Hukum",2013,26
+75,"Prov. Gorontalo","Lainnya",2013,23
+76,"Prov. Sulawesi Barat","Rumah Tangga",2003,167098
+76,"Prov. Sulawesi Barat","Badan Hukum",2003,18
+76,"Prov. Sulawesi Barat","Rumah Tangga",2013,185847
+76,"Prov. Sulawesi Barat","Badan Hukum",2013,14
+76,"Prov. Sulawesi Barat","Lainnya",2013,23
+81,"Prov. Maluku","Rumah Tangga",2003,184376
+81,"Prov. Maluku","Badan Hukum",2003,57
+81,"Prov. Maluku","Rumah Tangga",2013,175362
+81,"Prov. Maluku","Badan Hukum",2013,52
+81,"Prov. Maluku","Lainnya",2013,235
+82,"Prov. Maluku Utara","Rumah Tangga",2003,129246
+82,"Prov. Maluku Utara","Badan Hukum",2003,21
+82,"Prov. Maluku Utara","Rumah Tangga",2013,130233
+82,"Prov. Maluku Utara","Badan Hukum",2013,20
+82,"Prov. Maluku Utara","Lainnya",2013,69
+91,"Prov. Papua Barat","Rumah Tangga",2003,75790
+91,"Prov. Papua Barat","Badan Hukum",2003,32
+91,"Prov. Papua Barat","Rumah Tangga",2013,70223
+91,"Prov. Papua Barat","Badan Hukum",2013,41
+91,"Prov. Papua Barat","Lainnya",2013,30
+94,"Prov. Papua","Rumah Tangga",2003,280502
+94,"Prov. Papua","Badan Hukum",2003,46
+94,"Prov. Papua","Rumah Tangga",2013,438658
+94,"Prov. Papua","Badan Hukum",2013,54
+94,"Prov. Papua","Lainnya",2013,15
+,"Prov. Kalimantan Utara","Rumah Tangga",2003,38948
+,"Prov. Kalimantan Utara","Badan Hukum",2003,38
+,"Prov. Kalimantan Utara","Rumah Tangga",2013,44735
+,"Prov. Kalimantan Utara","Badan Hukum",2013,28
+,"Prov. Kalimantan Utara","Lainnya",2013,
